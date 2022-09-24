@@ -12,9 +12,18 @@ export function Header(){
 
             <nav>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <img src="" alt="" srcset="" />
+                        <p>Trocas</p>
+                    </li>
+                    <li>
+                        <img src="" alt="" srcset="" />
+                        <p>Chat</p>
+                    </li>
+                    <li>
+                        <img src="" alt="" srcset="" />
+                        <p>Perfil</p>
+                    </li>
                 </ul>
             </nav>
         </header>

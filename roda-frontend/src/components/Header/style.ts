@@ -8,10 +8,13 @@ header{
     background-color: black;
     color: white;
     width: 100vw;
-    height: 90px;
+    max-width: 1240px;
+    height: 70px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 20px;
+    padding: 20px;
     }
 
     img{
@@ -21,12 +24,21 @@ header{
     input{
         padding: 10px;
         border-radius: 5px;
-        width: 50%;
+        width: 30%;
+    }
+
+    nav{
+        width: 10%
     }
 
     ul{
         display: flex;
-        gap: 20px;
+        width: 30%
+    }
+
+    li{
+        display: flex;
+        flex-direction: column;
     }
 
 `
