@@ -19,5 +19,8 @@
   "homepage": "https://github.com/jmgrd98/Roda-Frontend#readme",
   "devDependencies": {
     "@types/styled-components": "^5.1.26"
+  },
+  "dependencies": {
+    "react-icons": "^4.4.0"
   }
 }
