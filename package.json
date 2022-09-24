@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jmgrd98/Roda-Frontend/issues"
   },
-  "homepage": "https://github.com/jmgrd98/Roda-Frontend#readme"
+  "homepage": "https://github.com/jmgrd98/Roda-Frontend#readme",
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  }
 }
