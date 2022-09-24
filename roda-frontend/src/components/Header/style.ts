@@ -33,6 +33,7 @@ header{
 
     ul{
         display: flex;
+        gap: 10px;
         width: 30%
     }
 

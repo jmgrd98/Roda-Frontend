@@ -2,7 +2,7 @@ import React from 'react'
 import {HeaderStyle} from './style.js'
 import logo from '../../assets/logowhite.png'
 import '../../styles/global.css'
-import { Link } from 'react-router-dom'
+import { BrowserRouter, Link } from 'react-router-dom'
 import {BiBookAlt} from 'react-icons/bi'
 
 const iconName1: string = `${BiBookAlt}`
@@ -18,12 +18,13 @@ export function Header(){
             <input type="search" name="" id="" placeholder="Pesquisar livros, grupos e usuários"/>
 
             <nav>
-                <ul>
+                <BrowserRouter>
+                  <ul>
                     <li>
                     <Link to="/trocas">
                         <img src={iconName1} alt="Ícone Trocas" />
                         <p>Trocas</p>
-                    </Link>
+                    </Link> 
                     </li>
                     <li>
                     <Link to="/chat">
@@ -37,13 +38,16 @@ export function Header(){
                         <p>Notificações</p>
                     </Link>
                     </li>
+                    
                     <li>
                     <Link to="/perfil">
                         <img src={iconName1} alt="Ícone Perfil"  />
                         <p>Perfil</p>
                     </Link>
                     </li>
+                    
                 </ul>
+            </BrowserRouter>
             </nav>
         </header>
     </HeaderStyle>
