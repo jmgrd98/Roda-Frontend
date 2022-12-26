@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../styles/global.css'
+import './style'
 import {Header} from '../../components/Header/Header'
 
 function Home() {
@@ -9,6 +10,8 @@ function Home() {
       <Header/>
 
       <h1>Home</h1>
+
+
     </div>
   )
 }

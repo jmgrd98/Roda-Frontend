@@ -4,7 +4,6 @@ import '../../styles/global.css'
 export const HeaderStyle = styled.header`
 
 header{
-
     background-color: black;
     color: white;
     width: 100vw;
